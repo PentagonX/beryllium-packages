@@ -2,5 +2,41 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #002003;
+    background-color: #001102;
+    color: white;
+      text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+li {
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.6rem;
+  border: 2px solid #6ee7b7; /* square outline */
+  border-radius: 6px; /* set to 0px if you want PERFECT squares */
+  background: rgba(110, 231, 183, 0.08);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: #d0ffe5;
+    font-weight: 800;
 }
